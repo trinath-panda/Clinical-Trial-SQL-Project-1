@@ -97,3 +97,93 @@ Update Trial_1_Data
 Set Cholesterol = 195
 Where
   PatientID = 5
+
+
+-- EXPLORATORY DATA ANALYSIS--
+
+--QUESTION-1: Is there a significant difference in the efficacy scores between Treatment A and Treatment B?
+Select 
+ Treatment,
+ Avg (EfficacyScore) as AvgEfficacyScore,
+ Count (*) as SampleSize
+From
+ Trial_1_Data
+Group by
+ Treatment
+
+--QUESTION-2: What is the distribution of education levels among patients in different treatments?
+select
+   Treatment,
+   EducationLevel,
+   count (*) as number_of_patients
+from 
+  Trial_1_Data
+group by 
+  Treatment,
+  EducationLevel
+order by
+  Treatment, number_of_patients DESC
+
+--QUESTION-3: Does smoking status have an impact on treatment efficacy?
+select
+ SmokingStatus,
+ avg (EfficacyScore) as AvgEfficacyScore,
+ count (*) as Number_Subjects
+from
+ Trial_1_Data
+group by
+ SmokingStatus
+
+--QUESTION-4: Are there differences in treatment outcomes based on sex?
+ Select
+  Sex,
+  avg (EfficacyScore) as AvgEfficacyScore,
+  count (*) as Number_Subjects
+from
+ Trial_1_Data
+group by
+ Sex;
+
+--QUESTION-5: Does the presence of diabetes affect treatment outcomes?
+select
+  DiabetesStatus,
+  avg (EfficacyScore) as TreatmentOutcome,
+  count (*) as Number_Subject
+from 
+  Trial_1_Data
+group by
+  DiabetesStatus
+order by
+  DiabetesStatus DESC
+
+--QUESTION-6: Are there any ethnic disparities in treatment responses and outcomes?
+ SELECT
+    Ethnicity,
+    Treatment,
+    AVG(EfficacyScore) AS AverageOutcome,
+	count (*) as SampleSize
+FROM
+    Trial_1_Data
+GROUP BY
+    Ethnicity,
+	Treatment
+Order by
+    AverageOutcome DESC
+
+--QUESTION-7: What is the relationship between age and treatment preference?
+select
+  Age,
+  Treatment,
+  count (*) as Frequency
+from Trial_1_Data
+group by
+  Age,
+  Treatment
+order by
+  Age, Frequency DESC
+
+
+
+--QUESTION-8: What is the relationship between BMI and blood pressure readings?
+--QUESTION-9: Does the occurrence of side effects vary based on treatment and age group?
+--QUESTION-10: Is there a correlation between cholesterol levels and treatment efficacy?
