@@ -7,6 +7,7 @@ This is my first SQL project. I used a dummy clinical trial dataset. Here I have
 
 # Tutorial
 For a step-by-step tutorial, you can see my YouTube playlist: https://youtube.com/playlist?list=PLWcqrtRKXifUaCVQoUBp-ypMK2d5ZiJBk
+
 This project is for study purposes, and all the data shown and used is dummy. You can also use this for practice and educational purposes.
 
 # Read Article
