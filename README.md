@@ -7,8 +7,8 @@ This project is for study purposes, and all the data shown and used is dummy. Yo
 
 # Read Article
 This article shows the results and complete project outcome:
-Portfolio: https://trinathp.wixsite.com/trinath-p/portfolio-collections/sql-portfolio/clinical-trial-sql-project
-Article: https://trinathp.wixsite.com/trinath-p/post/clinical-trial-data-sql-eda-project
+1. Portfolio: https://trinathp.wixsite.com/trinath-p/portfolio-collections/sql-portfolio/clinical-trial-sql-project
+2. Article: https://trinathp.wixsite.com/trinath-p/post/clinical-trial-data-sql-eda-project
 
 # Tool Used
 1. Microsoft SQL server
