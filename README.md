@@ -18,6 +18,7 @@ This article shows the results and complete project outcome:
 # Tool Used
 1. Microsoft SQL server
 2. SQL Server Management Studio (SSMS)
+
 ** You can use any SQL platform to perform your project; this is a personal preference.
    
 # Social Handle
