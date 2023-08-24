@@ -7,3 +7,9 @@ This project is for study purposes, and all the data shown and used is dummy dat
 1. Microsoft SQL server
 2. SQL Server Management Studio (SSMS)
 ** You can use any SQL platform to perform your project; this is a personal preference.
+# Social Handle
+1.	YouTube Channel: https://www.youtube.com/@trinath_panda_24
+2.	Instagram: https://www.instagram.com/trinath_4/
+3.	LinkedIn: https://www.linkedin.com/in/trinathpanda24/
+4.	Website: https://trinathp.wixsite.com/trinath-p
+5.	Git: https://github.com/trinathpanda04/Clinical-Trial-SQL-Project-1
